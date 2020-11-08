@@ -8,7 +8,7 @@ import java.time.LocalDate;
 public class DefaultContract {
 
     @Getter
-    private long ID;
+    private int ID;
 
     @Getter
     @Setter
@@ -26,7 +26,7 @@ public class DefaultContract {
     @Setter
     private Human owner;
 
-    public DefaultContract(long ID, LocalDate startDate, LocalDate endDate, long number, Human owner) {
+    public DefaultContract(int ID, LocalDate startDate, LocalDate endDate, long number, Human owner) {
         this.ID = ID;
         this.startDate = startDate;
         this.endDate = endDate;
