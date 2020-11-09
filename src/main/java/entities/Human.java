@@ -35,7 +35,7 @@ public class Human {
     @Setter
     private int age;
 
-    public Human(long ID, String FIO, LocalDate birthDate, Gender gender, int passportSeries, int passportNumber) {
+    public Human(int ID, String FIO, LocalDate birthDate, Gender gender, int passportSeries, int passportNumber) {
         this.ID = ID;
         this.FIO = FIO;
         this.birthDate = birthDate;

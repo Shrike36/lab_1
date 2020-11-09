@@ -7,8 +7,7 @@ import java.util.Arrays;
 
 public class Repository {
 
-    @Getter
-    private DefaultContract[] listOfContracts = new DefaultContract[10];
+    private DefaultContract[] listOfContracts = new DefaultContract[5];
 
     @Getter
     private int contractsCount = 0;

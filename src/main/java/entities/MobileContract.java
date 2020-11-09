@@ -19,7 +19,7 @@ public class MobileContract extends DefaultContract{
     @Setter
     private long gbCount;
 
-    public MobileContract(long ID, LocalDate startDate, LocalDate endDate, long number, Human owner, long minutesCount, long smsCount, long gbCount) {
+    public MobileContract(int ID, LocalDate startDate, LocalDate endDate, long number, Human owner, long minutesCount, long smsCount, long gbCount) {
         super(ID, startDate, endDate, number, owner);
         this.minutesCount = minutesCount;
         this.smsCount = smsCount;
